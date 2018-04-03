@@ -1,0 +1,134 @@
+html {
+    height: 100%;
+}
+
+body {
+	background-image: url("kuvat/VeneTaustakuva.jpg");
+	background-position: center;
+    background-size: cover;
+	color: white;
+	heigth: 97%;
+}
+
+p, h1, h2 {
+	margin: 20px;
+}
+
+h1 {
+	margin-left: 45%;
+	font-size: 400%;
+}
+
+h1 a:hover {
+	padding: 20px;
+	border-radius: 20px;
+	background-color: #0D47A1;
+}
+
+.nav {
+	display: inline-block;
+	width: 90%;
+	margin-top: 100px;
+	border-radius: 30px;
+	background-color: #1976D2;
+	border: 3px solid black;
+}
+
+.nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	float: left;
+	margin-left: 15%;
+	font-size: 2em;
+	padding: 10px;
+	display: block;
+	background-color: #1565C0;
+	border: 3px solid black;
+	margin-bottom: 10px;
+}
+
+li:hover {
+	background-color: #0D47A1;
+}
+
+.content {
+	display: inline-block;
+	width: 90%;
+	margin-top: 100px;
+	border-radius: 30px;
+	background-color: #1976D2;
+	border: 3px solid black;
+	max-width: 700px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+button {
+	background-color: #BBDEFB;
+    border: none;
+    color: #B71C1C;
+    padding: 15px 32px;
+    margin: 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+	border: 3px solid black;
+}
+
+th.vaaka{
+	font-size: 20px;	
+	text-align: left;	
+}
+th.pysty{
+	font-size: 20px;	
+}
+
+td {
+	font-size: 18px;
+}
+
+td p {
+	float: left;
+}
+
+table{
+	margin: 30px;
+	border-radius: 10px;
+	background-color: #BBDEFB;
+	color: #000000;
+	width: 600px;
+	border: 3px solid black;
+}
+
+form  {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+input {
+	background-color: #1565C0;
+	color: white;
+	font-size: 15px;
+}
+
+.poista{
+	text-decoration: none;
+	color: #B71C1C;
+	font-weight: bold;
+}
+.muuta{
+	margin-left: 5px;
+	text-decoration: none;
+	color: #004D40;
+	font-weight: bold;
+}
